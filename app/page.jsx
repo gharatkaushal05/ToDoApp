@@ -1,12 +1,5 @@
-import Header from '@/components/Header'
-import React from 'react'
+import TopicsList from "@/components/TopicsList";
 
-const page = () => {
-  return (
-    <div>
-      
-    </div>
-  )
+export default function Home() {
+  return <TopicsList />;
 }
-
-export default page
