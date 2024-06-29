@@ -27,6 +27,7 @@ export default function EditTopicForm({ id, title, description }) {
 
       router.refresh();
       router.push("/");
+      router.refresh();
     } catch (error) {
       console.log(error);
     }
@@ -53,7 +54,7 @@ export default function EditTopicForm({ id, title, description }) {
       <button
         className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg transition duration-300 ease-in-out transform hover:scale-105"
       >
-        Update Topic
+        Update Todo
       </button>
     </form>
   );
